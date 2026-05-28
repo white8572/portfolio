@@ -1,0 +1,47 @@
+/* Korean */
+@import url("https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+/* font-family: 'Pretendard', sans-serif; */
+
+/* English */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.font-mont,
+.font-mont * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SBAggro */
+@font-face {
+    font-family: 'SBAggro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-aggro,
+.font-aggro * {
+    font-family: 'SBAggro', sans-serif;
+}
+
+/*공통*/
+.display-pc {
+    display: block;
+}
+
+.display-mobile {
+    display: none;
+}

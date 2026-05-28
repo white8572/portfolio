@@ -1,0 +1,243 @@
+body {
+    background: #000;
+    color: #fff
+}
+
+main {
+    width: 100%;
+    overflow: hidden
+}
+
+#about {
+    padding: 10vw 0
+}
+
+#about .about-inner {
+    width: 94%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#about .about-box {
+    width: 48%
+}
+
+#about .about-box h1 {
+    display: block;
+    font-size: 6.25rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+#about .about-box h1 span {
+    display: block;
+    font-size: 0.48em;
+    line-height: 1;
+    margin-bottom: 0.2em;
+}
+
+#about .about-box .introduce {
+    margin-top: 6rem;
+}
+
+#about .about-box .introduce p {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1.2em;
+}
+
+#about .about-box .introduce p.first {
+    margin-top: 0
+}
+
+#about .about-box .about-list {
+    margin-top: 3.75rem;
+}
+
+#about .about-box .about-list:first-child {
+    margin-top: 0
+}
+
+#about .about-box .about-list .about-list-title {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    border: 2px solid #fff;
+    border-radius: 3rem;
+    padding: 0.25em 1em;
+    margin-bottom: 1.2em;
+}
+
+#about .about-box .about-list .career {}
+
+#about .about-box .about-list .career li {
+    position: relative;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-left: 0.5rem;
+    margin-top: 0.2em;
+}
+
+#about .about-box .about-list .career li:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+}
+
+#about .about-box .about-list .career li:first-child {
+    margin-top: 0
+}
+
+#about .about-box .about-list .career li span {
+    display: inline-block;
+    width: 9.5rem;
+    margin-right: 0.5rem;
+}
+
+#about .about-box .about-list .work {
+    border-top: 1px solid #fff;
+    margin-top: 0.6rem;
+}
+
+#about .about-box .about-list .work li {
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+
+#about .about-box .about-list .work li a {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    background: #000;
+    padding: 1em 0;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+#about .about-box .about-list .work li a:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    display: block;
+    width: 12px;
+    height: 1rem;
+    background-image: url(../images/work_ico_arrow.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto 0.75rem;
+}
+
+#about .about-box .about-list .work li a .category {
+    width: 25%;
+    min-width: 7rem;
+    text-align: center;
+    padding: 0 1em;
+}
+
+#about .about-box .about-list .work li a .site-name {}
+
+#about .about-box .about-list .work li a:hover {
+    background: #fff;
+    font-weight: 500;
+    color: #000;
+}
+
+#about .about-box .about-list .work li a:hover:before {
+    background-image: url(../images/work_ico_arrow_hover.png);
+}
+
+#about .about-box .about-list .contect li {
+    position: relative;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-left: 1.6rem;
+    margin-top: 0.2em;
+}
+
+#about .about-box .about-list .contect li:first-child {
+    margin-top: 0
+}
+
+#about .about-box .about-list .contect li span {
+    position: absolute;
+    top: calc(50% - 0.48rem);
+    left: 0;
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#about .about-box .about-list .contect li span.ico-phone {
+    background-image: url(../images/contect_ico_phone.png);
+}
+
+#about .about-box .about-list .contect li span.ico-mail {
+    background-image: url(../images/contect_ico_mail.png);
+}
+
+@media screen and (max-width: 1280px) {
+
+    html,
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    html,
+    body {
+        font-size: 12px
+    }
+
+    #about .about-box {
+        width: 100%
+    }
+
+    #about .about-box:first-child {
+        margin-bottom: 4rem
+    }
+
+    #about .about-box h1 {
+        font-size: 5.5rem
+    }
+
+    #about .about-box .introduce {
+        margin-top: 4rem
+    }
+}
