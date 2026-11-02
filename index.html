@@ -2,139 +2,176 @@
 <html lang="ko">
 
 <head>
-    <title>웹 퍼블리셔 오은지 포트폴리오</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#000000">
+    <title>웹 퍼블리셔 오은지 포트폴리오</title>
+    <meta name="theme-color" content="#080d15">
     <meta name="format-detection" content="telephone=no">
 
     <meta name="description" content="10년 차 웹 퍼블리셔 오은지의 포트폴리오입니다. 웹디자인 및 퍼블리싱 프로젝트를 소개합니다.">
-    <meta name="keywords" content="웹퍼블리셔, 웹디자인, 퍼블리싱, HTML, CSS, JavaScript, 포트폴리오">
+
     <meta name="author" content="오은지">
-    <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="웹 퍼블리셔 오은지 포트폴리오">
     <meta property="og:description" content="10년 차 웹 퍼블리셔 오은지의 포트폴리오입니다.">
-    <meta property="og:image" content="https://도메인주소.com/images/og-image.jpg">
-    <meta property="og:url" content="https://도메인주소.com">
+    <meta property="og:url" content="https://white8572.github.io/portfolio/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="웹 퍼블리셔 오은지 포트폴리오">
 
     <meta property="og:locale" content="ko_KR">
 
-    <link rel="canonical" href="https://도메인주소.com">
+    <link rel="canonical" href="https://white8572.github.io/portfolio/">
 
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/aos.css">
 
-    <script type="text/javascript" src="./js/aos.js"></script>
+    <script src="./js/aos.js"></script>
 
 </head>
 
 <body>
+    <header class="header">
+        <div class="header-inner w1280">
+            <h1 class="header-logo"><a href="#home">Portfolio</a></h1>
+            <nav class="gnb" aria-label="메인 메뉴">
+                <ul class="gnb-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main>
-        <section id="about">
-            <div class="about-inner">
-                <div class="about-box">
-                    <h1 class="font-aggro" data-aos="fade-in"><span>웹디자인 및 퍼블리싱</span> 오은지</h1>
-                    <div class="introduce" data-aos="fade-in">
-                        <p class="first">안녕하세요. <br>저는 웹디자인 및 퍼블리싱 업무를 담당하는 10년 차 웹 퍼블리셔 오은지입니다.</p>
-                        <p>다년간 Photoshop, HTML, CSS, JavaScript를 활용하여 <br class="display-pc">고객의 요구와 목적에 맞는 웹사이트의 레이아웃과
-                            디자인을 기획하고 구현해 왔습니다.</p>
-                        <p>항상 책임감 있는 자세로 맡은 업무에 임하고 있으며, <br class="display-pc">새로운 기술을 배우고 적용하는 과정에서 성장의 즐거움을 느끼고 있습니다.
-                        </p>
-                        <p>앞으로도 완성도 높은 결과물을 만들기 위해 최선을 다하며, <br class="display-pc">꾸준히 성장하는 웹 퍼블리셔가 되겠습니다.</p>
-                    </div>
+        <section class="m-visual" id="home">
+            <div class="m-visual-inner w1280">
+                <div class="m-visual-heading">
+                    <span class="m-visual-sub" data-aos="fade-in">WEB DESIGN &amp; PUBLISHING</span>
+                    <h2 class="m-visual-title" data-aos="fade-in">Web Portfolio</h2>
+                    <p class="m-visual-desc" data-aos="fade-in">기획부터 디자인, 퍼블리싱까지 <br>사용자 경험을 고려한 웹사이트를 제작합니다.</p>
                 </div>
+                <ul class="m-visual-features">
+                    <li class="m-visual-feature" data-aos="fade-in">
+                        <span class="m-visual-icon icon-design" aria-hidden="true"></span>
+                        <strong>Web Design</strong>
+                        <p>사용성을 고려한 웹디자인</p>
+                    </li>
+                    <li class="m-visual-feature" data-aos="fade-in">
+                        <span class="m-visual-icon icon-publishing" aria-hidden="true"></span>
+                        <strong>Publishing</strong>
+                        <p>HTML · CSS · JavaScript</p>
+                    </li>
+                    <li class="m-visual-feature" data-aos="fade-in">
+                        <span class="m-visual-icon icon-responsive" aria-hidden="true"></span>
+                        <strong>Responsive</strong>
+                        <p>다양한 디바이스에 최적화</p>
+                    </li>
+                </ul>
+                <a href="#work" class="m-visual-btn">프로젝트 보기 <span aria-hidden="true">›</span></a>
+            </div>
+        </section>
 
-                <div class="about-box">
-                    <div class="about-list" data-aos="fade-up">
-                        <span class="about-list-title font-mont">Career</span>
-                        <ul class="career">
-                            <li><span>2017.06 ~ 2025.05</span>(주)애드윈솔루션</li>
-                            <li><span>2016.04 ~ 2017.07</span>(주)으르렁컴퍼니</li>
-                            <li><span>2014.08 ~ 2015.11</span>(주)라지앱</li>
-                        </ul>
-                    </div>
+        <section class="m-about" id="about">
+            <div class="m-about-inner w1280">
+                <div class="m-about-image" role="img" aria-label="웹디자인 및 퍼블리싱 프로젝트를 보여주는 모니터와 태블릿"
+                    data-aos="fade-right"></div>
 
-                    <div class="about-list" data-aos="fade-up">
-                        <span class="about-list-title font-mont">Work</span>
-                        <ul class="work">
-                            <li>
-                                <a href="https://www.hdhd.co.kr/" target="_blank">
-                                    <div class="category">기업</div>
-                                    <div class="site-name">애드윈솔루션</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://bricp.handamaster.co.kr/" target="_blank">
-                                    <div class="category">기업</div>
-                                    <div class="site-name">BRIVIA</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.festive-ent.co.kr/" target="_blank">
-                                    <div class="category">기업</div>
-                                    <div class="site-name">페스티브엔터테인먼트</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.doocheonclean.co.kr/" target="_blank">
-                                    <div class="category">기업</div>
-                                    <div class="site-name">두천산업</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.themuin.kr/" target="_blank">
-                                    <div class="category">프랜차이즈</div>
-                                    <div class="site-name">더무인</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.xn--e42bu3l1ze.kr/" target="_blank">
-                                    <div class="category">프랜차이즈</div>
-                                    <div class="site-name">면장수</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.alcoholst.kr/" target="_blank">
-                                    <div class="category">프랜차이즈</div>
-                                    <div class="site-name">주류충전소</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.hplant.co.kr/" target="_blank">
-                                    <div class="category">병원</div>
-                                    <div class="site-name">연세현플란트치과의원</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.sdcentraleyes.com/" target="_blank">
-                                    <div class="category">병원</div>
-                                    <div class="site-name">송도센트럴안과의원</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="about-list" data-aos="fade-up">
-                        <span class="about-list-title font-mont">Contect</span>
-                        <ul class="contect">
-                            <li><span class="ico-mail"></span>white8572@naver.com</li>
-                        </ul>
-                    </div>
-
+                <div class="m-about-content" data-aos="fade-left">
+                    <span class="m-about-sub">About Me</span>
+                    <h2 class="m-about-title">
+                        디자인부터 퍼블리싱까지, <br>
+                        완성도 높은 웹사이트를 만듭니다.
+                    </h2>
+                    <p class="m-about-desc">
+                        10년간 웹디자인과 퍼블리싱 실무를 경험하며 다양한 프로젝트를 진행해 왔습니다. <br>
+                        사용자 편의성과 디자인의 완성도를 고려하며, 기획 의도를 실제 웹 환경에 구현하는 것을 중요하게 생각합니다.
+                    </p>
                 </div>
             </div>
         </section>
+
+
+        <section class="m-work" id="work">
+            <div class="m-work-inner w1280">
+                <div class="m-work-heading">
+                    <h2 class="m-work-title" data-aos="fade-in">Projects</h2>
+                    <p class="m-work-desc" data-aos="fade-in">
+                        디자인부터 퍼블리싱까지 100% 직접 진행한 프로젝트입니다.
+                    </p>
+                    <p class="m-work-guide" data-aos="fade-in">
+                        이미지를 클릭하면 실제 웹사이트로 이동합니다.
+                    </p>
+                </div>
+
+                <ul class="m-work-list">
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="https://www.brivia.kr/" target="_blank" rel="noopener noreferrer"
+                            aria-label="BRIVIA 웹사이트 새 창에서 보기">
+                            <img src="images/work_brivia.jpg" alt="BRIVIA 웹사이트 메인 시안 중 일부">
+                        </a>
+                    </li>
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="https://www.jejuhanssem.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="제주한샘 연삼로대리점 웹사이트 새 창에서 보기">
+                            <img src="images/work_hanssem.jpg" alt="제주한샘 연삼로대리점 웹사이트 시안 중 일부">
+                        </a>
+                    </li>
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="https://www.ipatalk.kr/" target="_blank" rel="noopener noreferrer"
+                            aria-label="아이디어 전달해 웹사이트 새 창에서 보기">
+                            <img src="images/work_idea.jpg" alt="아이디어 전달해 웹사이트 시안 중 일부">
+                        </a>
+                    </li>
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="https://www.seoulweye.kr/" target="_blank" rel="noopener noreferrer"
+                            aria-label="서울W안과 웹사이트 새 창에서 보기">
+                            <img src="images/work_weye.jpg" alt="서울W안과 웹사이트 메인 시안 중 일부">
+                        </a>
+                    </li>
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="https://www.alcoholst.kr/" target="_blank" rel="noopener noreferrer"
+                            aria-label="주류충전소 웹사이트 새 창에서 보기">
+                            <img src="images/work_alcohol.jpg" alt="주류충전소 웹사이트 시안 중 일부">
+                        </a>
+                    </li>
+                    <li class="m-work-item" data-aos="fade-in">
+                        <a href="http://www.festive-ent.co.kr/" target="_blank" rel="noopener noreferrer"
+                            aria-label="페스티브 엔터테이먼트 웹사이트 새 창에서 보기">
+                            <img src="images/work_festive.jpg" alt="페스티브 엔터테이먼트 웹사이트 시안 중 일부">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="m-thanks">
+            <div class="m-thanks-inner w1280">
+                <span class="m-thanks-sub" data-aos="fade-in">WEB DESIGN &amp; PUBLISHING</span>
+                <h2 class="m-thanks-title" data-aos="fade-in">Thank You for Watching.</h2>
+                <p class="m-thanks-desc" data-aos="fade-in">
+                    포트폴리오를 봐주셔서 감사합니다. <br>새로운 기회와 좋은 인연을 기다립니다.
+                </p>
+            </div>
+        </section>
+
     </main>
+
+    <footer class="footer">
+        <div class="footer-inner w1280">
+            <strong class="footer-logo">오은지 웹 포트폴리오</strong>
+            <p class="footer-copy">© 2026 OH EUNJI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script>
         AOS.init({
-            duration: 1000, delay: 100,
-            easing: 'ease-in-out-sine'
+            duration: 500,
+            delay: 50,
+            easing: 'ease-in-out-sine',
+            once: true
         });
     </script>
 </body>

@@ -1,0 +1,116 @@
+/* Korean */
+@import url("https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+/* font-family: 'Pretendard', sans-serif; */
+
+/* English */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.font-mont,
+.font-mont * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*공통*/
+.display-pc {
+    display: block;
+}
+
+.display-mobile {
+    display: none;
+}
+
+/*reset*/
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    min-width: 350px;
+    font-family: 'Pretendard', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+figure,
+figcaption,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img,
+picture,
+svg,
+video {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+legend {
+    border: 0;
+}
+
+address,
+em,
+i {
+    font-style: normal;
+}
+
+strong {
+    font-weight: 600;
+}
